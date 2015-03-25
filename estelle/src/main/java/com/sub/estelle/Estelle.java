@@ -4,7 +4,7 @@ import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-@Mod (modid = "Estelle", name = "Estelle", version="1.7.2-1.0")
+@Mod(modid = "Estelle", name = "Estelle", version="1.7.2-1.0")
 
 
 
