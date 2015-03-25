@@ -1,0 +1,10 @@
+package com.sub.estelle;
+
+import cpw.mods.fml.common.Mod;
+@Mod(modid = "Estelle", name = "Estelle", version="1.7.2-1.0")
+
+
+
+public class Estelle {
+
+}

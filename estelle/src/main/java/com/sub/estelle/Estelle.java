@@ -1,0 +1,24 @@
+package com.sub.estelle;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+@Mod (modid = "Estelle", name = "Estelle", version="1.7.2-1.0")
+
+
+
+public class Estelle 
+{
+    @EventHandler
+	public void preinit(FMLPreInitializationEvent groundzero)
+	{
+			
+	
+	}
+	@EventHandler
+	public void preinit (FMLInitializationEvent groundone)
+	{
+		
+	}
+}
