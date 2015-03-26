@@ -2,7 +2,9 @@ package com.sub.estelle;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = "Estelle", name = "Estelle", version="1.7.2-1.0")
 
@@ -10,15 +12,23 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 public class Estelle 
 {
-    @EventHandler
-	public void preinit(FMLPreInitializationEvent groundzero)
+    @Instance("Estelle")
+	public static Estelle instance;
+
+	@EventHandler
+	public void preinit(FMLPreInitializationEvent ground0)
 	{
 			
 	
 	}
 	@EventHandler
-	public void preinit (FMLInitializationEvent groundone)
+	public void init (FMLInitializationEvent ground1)
 	{
 		
+	}
+	@EventHandler
+	public void postinit (FMLPostInitializationEvent standby)
+	{
+
 	}
 }

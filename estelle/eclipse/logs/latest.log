@@ -1,14 +1,12 @@
-[20:15:09] [Server thread/INFO]: Starting minecraft server version 1.7.2
-[20:15:19] [Server thread/INFO]: Loading properties
-[20:15:19] [Server thread/INFO]: Default game type: SURVIVAL
-[20:15:19] [Server thread/INFO]: Generating keypair
-[20:15:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:15:19] [Server thread/INFO]: Preparing level "world"
-[20:15:20] [Server thread/INFO]: Preparing start region for level 0
-[20:15:20] [Server thread/INFO]: Done (0.688s)! For help, type "help" or "?"
-[20:15:20] [Server thread/INFO]: Stopping server
-[20:15:20] [Server thread/INFO]: Saving players
-[20:15:20] [Server thread/INFO]: Saving worlds
-[20:15:20] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[20:15:20] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[20:15:20] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[19:30:51] [main/INFO]: Setting user: Player867
+[19:30:52] [Client thread/INFO]: LWJGL Version: 2.9.0
+[19:30:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:examplemod, FMLFileResourcePack:Estelle
+[19:30:59] [Sound Library Loader/INFO]: Sound engine started
+[19:30:59] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:30:59] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:31:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:examplemod, FMLFileResourcePack:Estelle
+[19:31:00] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:31:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:31:01] [Sound Library Loader/INFO]: Sound engine started
+[19:31:02] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[19:31:23] [Client thread/INFO]: Stopping!

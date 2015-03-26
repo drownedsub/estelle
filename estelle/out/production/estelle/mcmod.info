@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
+  "modid": "Estelle",
+  "name": "Estelle",
+  "description": "step one of kiseki mod project",
+  "version": "${1.0}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["sub"],
+  "credits": "step one of kiseki mod project",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
