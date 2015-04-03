@@ -1,5 +1,6 @@
 package com.sub.estelle;
 
+import com.sub.estelle.configuration.ConfigurationHandler;
 import com.sub.estelle.proxy.iProxy;
 import com.sub.estelle.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -21,18 +22,17 @@ public class Estelle
 	public static iProxy proxy;
 
 	@EventHandler
-	public void preinit(FMLPreInitializationEvent ground0)
+	public void preinit(FMLPreInitializationEvent event)
 	{
-			
-	
+		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 	}
 	@EventHandler
-	public void init (FMLInitializationEvent ground1)
+	public void init (FMLInitializationEvent event)
 	{
 		
 	}
 	@EventHandler
-	public void postinit (FMLPostInitializationEvent standby)
+	public void postinit (FMLPostInitializationEvent event)
 	{
 
 	}

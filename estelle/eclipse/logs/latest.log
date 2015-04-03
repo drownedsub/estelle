@@ -1,68 +1,11 @@
-[15:02:22] [main/INFO]: Setting user: Player707
-[15:02:23] [Client thread/INFO]: LWJGL Version: 2.9.0
-[15:02:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:examplemod, FMLFileResourcePack:Estelle
-[15:02:33] [Sound Library Loader/INFO]: Sound engine started
-[15:02:46] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[15:02:46] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[15:02:46] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:examplemod, FMLFileResourcePack:Estelle
-[15:02:46] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[15:02:47] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[15:02:47] [Sound Library Loader/INFO]: Sound engine started
-[15:02:56] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
-[15:02:56] [Server thread/INFO]: Generating keypair
-[15:02:56] [Server thread/INFO]: Preparing start region for level 0
-[15:02:57] [Server thread/INFO]: Preparing spawn area: 64%
-[15:02:58] [Server thread/INFO]: Player707[local:E:1f2b5b22] logged in with entity id 247 at (-95.3000000119209, 38.878390596058395, 495.51251327820523)
-[15:02:58] [Server thread/INFO]: Player707 joined the game
-[15:02:59] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[15:03:11] [Skin downloader: http://skins.minecraft.net/MinecraftSkins/Player707.png/ERROR]: Couldn't download http texture
-java.net.UnknownHostException: skins.minecraft.net
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178) ~[?:1.7.0_75]
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.7.0_75]
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.7.0_75]
-	at java.net.Socket.connect(Socket.java:579) ~[?:1.7.0_75]
-	at java.net.Socket.connect(Socket.java:528) ~[?:1.7.0_75]
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.7.0_75]
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[?:1.7.0_75]
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[?:1.7.0_75]
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[?:1.7.0_75]
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[?:1.7.0_75]
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[?:1.7.0_75]
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:997) ~[?:1.7.0_75]
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:976) ~[?:1.7.0_75]
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:851) ~[?:1.7.0_75]
-	at net.minecraft.client.renderer.ThreadDownloadImageData$1.run(ThreadDownloadImageData.java:87) [ThreadDownloadImageData$1.class:?]
-[15:03:11] [Skin downloader: http://skins.minecraft.net/MinecraftCloaks/Player707.png/ERROR]: Couldn't download http texture
-java.net.UnknownHostException: skins.minecraft.net
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178) ~[?:1.7.0_75]
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.7.0_75]
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.7.0_75]
-	at java.net.Socket.connect(Socket.java:579) ~[?:1.7.0_75]
-	at java.net.Socket.connect(Socket.java:528) ~[?:1.7.0_75]
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.7.0_75]
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[?:1.7.0_75]
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[?:1.7.0_75]
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[?:1.7.0_75]
-	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[?:1.7.0_75]
-	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[?:1.7.0_75]
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:997) ~[?:1.7.0_75]
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:976) ~[?:1.7.0_75]
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:851) ~[?:1.7.0_75]
-	at net.minecraft.client.renderer.ThreadDownloadImageData$1.run(ThreadDownloadImageData.java:87) [ThreadDownloadImageData$1.class:?]
-[15:03:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[15:04:06] [Server thread/INFO]: Player707 has just earned the achievement [Taking Inventory]
-[15:04:06] [Client thread/INFO]: [CHAT] Player707 has just earned the achievement [Taking Inventory]
-[15:04:55] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[15:05:07] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[15:05:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[15:14:23] [Server thread/INFO]: Saving and pausing game...
-[15:14:23] [Server thread/INFO]: Saving chunks for level 'estelle'/Overworld
-[15:14:23] [Server thread/INFO]: Saving chunks for level 'estelle'/Nether
-[15:14:23] [Server thread/INFO]: Saving chunks for level 'estelle'/The End
-[15:14:24] [Server thread/INFO]: Stopping server
-[15:14:24] [Server thread/INFO]: Saving players
-[15:14:24] [Server thread/INFO]: Saving worlds
-[15:14:24] [Server thread/INFO]: Saving chunks for level 'estelle'/Overworld
-[15:14:24] [Server thread/INFO]: Saving chunks for level 'estelle'/Nether
-[15:14:24] [Server thread/INFO]: Saving chunks for level 'estelle'/The End
-[15:14:25] [Client thread/INFO]: Stopping!
+[20:17:44] [main/INFO]: Setting user: Player398
+[20:17:46] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:17:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:examplemod, FMLFileResourcePack:Estelle
+[20:17:53] [Sound Library Loader/INFO]: Sound engine started
+[20:17:55] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:17:55] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:17:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:examplemod, FMLFileResourcePack:Estelle
+[20:17:55] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:17:56] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:17:57] [Sound Library Loader/INFO]: Sound engine started
+[20:18:15] [Client thread/INFO]: Stopping!
